@@ -1,9 +1,10 @@
 """
-This module is the result of the Colorifix task assignment and contains functions that perform the following functions:
-    - Compute BLAST operations against the NCBI server, mediated by the BioPython libraries
-    - Count the number of hits obtained from a BLAST operation for a given nucleotide sequence
+This module is the result of the Colorifix task assignment and contains functions that execute the following:
+    - run_blast: Compute BLAST operations against the NCBI server, mediated by the BioPython libraries
+    - count_hits: Count the number of hits obtained from a BLAST operation for a given nucleotide sequence
 
 If run as a main module, the specific conditions for this exercise will be run, as stated under if __name__ == "__main__"
+The final result should be found in the n_hits variable
 """
 
 from Bio.Blast import NCBIWWW
